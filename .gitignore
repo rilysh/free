@@ -50,3 +50,10 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# Others
+free
+a.out
+hello/
+others/
+po/

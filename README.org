@@ -1,0 +1,14 @@
+** free
+free(1) - Display the amount of space for RAM and swap.
+
+** Usage
+Run =free --help=. It should provide some basic information
+about free(1). For more further details, check out the
+=free.en.txt= document.
+
+** Translation
+Right now I haven't done any translation of these command
+descriptions. However, you can help me to translate these
+messages. For that, please contact me via email at [[mailto:nightquick@proton.me][nightquick AT proton.me]]
+
+Also, run =make trans-init= for more information about translation.

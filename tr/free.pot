@@ -1,0 +1,103 @@
+# Translation template.
+# Copyright (C) 2023, rilysh
+# This file is distributed under BSD 2-Clause License.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-28 13:59+09\n"
+"PO-Revision-Date: 2023-12-28 13:59+09\n"
+"Last-Translator: rilysh <nightquick@proton.me>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: free.c:461
+msgid "Usage: free [OPTION]...\n"
+msgstr ""
+
+#: free.c:462
+msgid ""
+"Display the amount of space for RAM and swap.\n"
+"\n"
+msgstr ""
+
+#: free.c:463
+msgid "Options:\n"
+msgstr ""
+
+#: free.c:464
+msgid "  --bytes        show the output in bytes\n"
+msgstr ""
+
+#: free.c:465
+msgid "  --kilo         show the output in kilobytes\n"
+msgstr ""
+
+#: free.c:466
+msgid "  --mega         show the output in megabytes\n"
+msgstr ""
+
+#: free.c:467
+msgid "  --giga         show the output in gigabytes\n"
+msgstr ""
+
+#: free.c:468
+msgid "  --tera         show the output in terabytes\n"
+msgstr ""
+
+#: free.c:469
+msgid "  --peta         show the output in petabytes\n"
+msgstr ""
+
+#: free.c:470
+msgid "  --kibi         show the output in kibibytes\n"
+msgstr ""
+
+#: free.c:471
+msgid "  --mibi         show the output in mibibytes\n"
+msgstr ""
+
+#: free.c:472
+msgid "  --gibi         show the output in gibibytes\n"
+msgstr ""
+
+#: free.c:473
+msgid "  --tibi         show the output in tibibytes\n"
+msgstr ""
+
+#: free.c:474
+msgid "  --pibi         show the output in pibibytes\n"
+msgstr ""
+
+#: free.c:475
+msgid "  --decimal      use decimal format, e.g. pow(1000, n)\n"
+msgstr ""
+
+#: free.c:476
+msgid "  -h, --human    show the output in human readable form, e.g. 2.3G\n"
+msgstr ""
+
+#: free.c:477
+msgid "  -t, --total    show the sum of total, free, and used RAM and swap\n"
+msgstr ""
+
+#: free.c:478
+msgid "  -s, --secs     continue printing in every N seconds\n"
+msgstr ""
+
+#: free.c:479
+msgid "  -c, --count    continue printing N times and exit\n"
+msgstr ""
+
+#: free.c:480
+msgid "  --help         print this help section\n"
+msgstr ""
+
+#: free.c:481
+msgid "  --version      print the current version\n"
+msgstr ""

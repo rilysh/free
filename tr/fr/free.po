@@ -1,0 +1,104 @@
+# Translation template.
+# Copyright (C) 2023, rilysh
+# This file is distributed under BSD 2-Clause License.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-28 13:59+09\n"
+"PO-Revision-Date: 2023-12-28 19:06+09\n"
+"Last-Translator: rilysh <nightquick@proton.me>\n"
+"Language-Team: French <traduc@traduc.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: free.c:461
+msgid "Usage: free [OPTION]...\n"
+msgstr "Usage: free [OPTION]...\n"
+
+#: free.c:462
+msgid ""
+"Display the amount of space for RAM and swap.\n"
+"\n"
+msgstr "Afficher la quantité d'espace pour la RAM et l'échange.\n"
+"\n"
+
+#: free.c:463
+msgid "Options:\n"
+msgstr "Options:\n"
+
+#: free.c:464
+msgid "  --bytes        show the output in bytes\n"
+msgstr "  --bytes        afficher la sortie en octets\n"
+
+#: free.c:465
+msgid "  --kilo         show the output in kilobytes\n"
+msgstr "  --kilo         afficher la sortie en kilo-octets\n"
+
+#: free.c:466
+msgid "  --mega         show the output in megabytes\n"
+msgstr "  --mega         afficher la sortie en mégaoctets\n"
+
+#: free.c:467
+msgid "  --giga         show the output in gigabytes\n"
+msgstr "  --giga         afficher la sortie en gigaoctets\n"
+
+#: free.c:468
+msgid "  --tera         show the output in terabytes\n"
+msgstr "  --tera         afficher la sortie en téraoctets\n"
+
+#: free.c:469
+msgid "  --peta         show the output in petabytes\n"
+msgstr "  --peta         afficher la sortie en pétaoctets\n"
+
+#: free.c:470
+msgid "  --kibi         show the output in kibibytes\n"
+msgstr "  --kibi         afficher la sortie en kibioctets\n"
+
+#: free.c:471
+msgid "  --mibi         show the output in mibibytes\n"
+msgstr "  --mibi         afficher la sortie en mibioctets\n"
+
+#: free.c:472
+msgid "  --gibi         show the output in gibibytes\n"
+msgstr "  --gibi         afficher la sortie en gibioctets\n"
+
+#: free.c:473
+msgid "  --tibi         show the output in tibibytes\n"
+msgstr "  --tibi         afficher la sortie en tibioctets\n"
+
+#: free.c:474
+msgid "  --pibi         show the output in pibibytes\n"
+msgstr "  --pibi         afficher la sortie en pibioctets\n"
+
+#: free.c:475
+msgid "  --decimal      use decimal format, e.g. pow(1000, n)\n"
+msgstr "  --decimal      utilisez le format décimal, par ex. puissance(1000, n)\n"
+
+#: free.c:476
+msgid "  -h, --human    show the output in human readable form, e.g. 2.3G\n"
+msgstr "  -h, --human    afficher le résultat sous une forme lisible par l'homme, par ex. 2.3G\n"
+
+#: free.c:477
+msgid "  -t, --total    show the sum of total, free, and used RAM and swap\n"
+msgstr "  -t, --total    afficher la somme de la RAM totale, libre et utilisée et du swap\n"
+
+#: free.c:478
+msgid "  -s, --secs     continue printing in every N seconds\n"
+msgstr "  -s, --secs     continuer à imprimer toutes les N secondes\n"
+
+#: free.c:479
+msgid "  -c, --count    continue printing N times and exit\n"
+msgstr "  -c, --count    continuer à imprimer N fois et quitter\n"
+
+#: free.c:480
+msgid "  --help         print this help section\n"
+msgstr "  --help         imprimer cette section d'aide\n"
+
+#: free.c:481
+msgid "  --version      print the current version\n"
+msgstr "  --version      imprimer la version actuelle\n"

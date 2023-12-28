@@ -1,0 +1,53 @@
+FREE(1)                free util           FREE(1)
+
+NAME
+        free - Display the amount of space for RAM and swap
+
+SYNOPSIS
+        free [OPTION]...
+
+DESCRIPTION
+        free displays the amount of free and used RAM and swap
+	memory. In addition, it also displays current buffer
+	size and maximum shared memory by the kernel.
+
+	free utilizes sysctls as well as kvm (kernel memory
+	interface) to gather relevant information about system
+	RAM and swap.
+
+OPTIONS
+        --byte, --kilo, --mega, --giga, --tera, --peta
+		--kibi, --mibi, --gibi, --tibi, --pibi
+	These options will show the output in their respective
+	formats. For example, --mega will convert the gathered
+	as pow(1000, n) whereas --mibi will convert the gathered
+	values as pow(1024, n) and then will print the output.
+
+	--decimal
+	Convert the default output to show as decimal.
+	(decimal: pow(1000, n), default is binary: pow(1024, n)
+
+	-h, --human
+	Display the output as human readable form.
+
+	-t, --total
+	Display the sum of total, free, and used RAM and swap.
+
+	-s, --secs
+	Wait for specified seconds and the display the output
+	again, in a continuous loop.
+
+	-c, --count
+	Display the output N times and then exit.
+
+	--help
+	Display the help section.
+
+	--version
+	Display the version.
+
+BUGS
+	Please report any bugs at <nightquick@proton.me>
+
+SEE ALSO
+	vmstat(1), sysctl(1)
